@@ -1,0 +1,112 @@
+/* Frame container */
+.frame {
+    text-align: center;
+    padding: 0px;
+    border: 0px solid #000000;
+    border-radius: 0px;
+    background-color: hsla(317, 18%, 77%, 0.937);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Ques {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.Ques:hover {
+    /* background-color: #138496; */
+}
+
+.No {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 2.0rem;
+    transition: background-color 0.2s;
+}
+
+.No:hover {
+    /* background-color: #218838; */
+}
+
+.Yes {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 2.0rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.Yes:hover {
+    /* background-color: #e02f2f; */
+}
+
+/* "ENJOY THIS" text that fades out */
+.enjoy-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    animation: fadeOut 2s forwards;
+}
+
+/* Fade out animation for "ENJOY THIS" text */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.YAYY{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+.img1,.img2,.img3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.img1{
+    top: -10%;
+    left: 50%;
+}
+.img2{
+    top: 0%;
+    left: 50%;
+}.img3{
+    top: 10%;
+    left: 50%;
+}

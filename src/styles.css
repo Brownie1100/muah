@@ -1,0 +1,48 @@
+/* styles.css */
+
+.idea-hub {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #ff8c94;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5c75;
+}
+
+.ideas-list {
+    margin-top: 30px;
+}
+
+.idea-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
