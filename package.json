@@ -2,20 +2,30 @@
   "name": "muah",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Brownie1100/muah",
   "dependencies": {
+    "@fireworks-js/react": "^2.10.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "css-doodle": "^0.40.8",
+    "fireworks-js": "^2.10.8",
+    "muah": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-fireworks": "^1.0.4",
     "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.7.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
