@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Brownie1100/muah/static/css/main.fce6e4e2.css",
+    "main.js": "/Brownie1100/muah/static/js/main.2cb06cb2.js",
+    "static/js/453.2198e6c4.chunk.js": "/Brownie1100/muah/static/js/453.2198e6c4.chunk.js",
+    "index.html": "/Brownie1100/muah/index.html",
+    "main.fce6e4e2.css.map": "/Brownie1100/muah/static/css/main.fce6e4e2.css.map",
+    "main.2cb06cb2.js.map": "/Brownie1100/muah/static/js/main.2cb06cb2.js.map",
+    "453.2198e6c4.chunk.js.map": "/Brownie1100/muah/static/js/453.2198e6c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fce6e4e2.css",
+    "static/js/main.2cb06cb2.js"
+  ]
+}
