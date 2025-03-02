@@ -2,7 +2,7 @@
   "name": "muah",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Brownie1100/muah",
+  "homepage": "https://brownie1100.github.io/muah/",
   "dependencies": {
     "@fireworks-js/react": "^2.10.8",
     "@testing-library/jest-dom": "^5.17.0",
