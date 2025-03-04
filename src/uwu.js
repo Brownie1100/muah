@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "css-doodle";
 import "./UwU.css";
-import { Fireworks } from "@fireworks-js/react";
 
 function UwU() {
     const [vis, setVis] = useState(false); // For showing "Yes"
@@ -138,15 +137,17 @@ function UwU() {
                 <div className="No" id="No" style={{ display: vin ? "block" : "none" }} onClick={visA}>{No}</div>
             </div>
 
-            {img1 && (
-                <div className="img1"><img src="https://i.imgur.com/vLl6Jc3.gif" alt="weird" /></div>
-            )}
-            {img2 && (
-                <div className="img2"><img src="https://i.imgur.com/RXvgXqf.gif" alt="cri" /></div>
-            )}
-            {img3 && (
-                <div className="img3"><img src="https://i.imgur.com/uiE3jO6.gif" alt="hepi" /></div>
-            )}
+            <div className="image-container">
+                {img1 && (
+                    <div className="img1"><img src="https://i.imgur.com/vLl6Jc3.gif" alt="weird" /></div>
+                )}
+                {img2 && (
+                    <div className="img2"><img src="https://i.imgur.com/RXvgXqf.gif" alt="cri" /></div>
+                )}
+                {img3 && (
+                    <div className="img3"><img src="https://i.imgur.com/uiE3jO6.gif" alt="hepi" /></div>
+                )}
+            </div>
 
             {showYayy && (
                 <div className="YAYY">YAYYY :))</div>

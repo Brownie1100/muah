@@ -3,8 +3,12 @@ body {
   font-family: 'Dancing Script', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f8f9fa;
   overflow: hidden;
+  touch-action: none;
+  background-color: hsla(317, 18%, 77%, 0.937);
+  border: 0px solid #000000;
+  border-radius: 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 code {
